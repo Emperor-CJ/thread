@@ -1,0 +1,9 @@
+1. this.interrupted() 测试当前线程是否已经中断
+2. this.isInterrupted() 测试线程是否已经中断
+
+interrupted :
+测试当前线程是否已经中断，线程的中断状态由该方法清除
+
+这两个方法的解释：
+1、this.interrupted():测试当前线程是否已经是中断状态，执行后具有将状态标志清除为false的功能
+1、this.isInterrupted():测试线程Thread对象是否已经是中断状态，但不清除状态标识
