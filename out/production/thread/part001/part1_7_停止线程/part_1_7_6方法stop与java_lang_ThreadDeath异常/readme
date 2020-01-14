@@ -1,0 +1,1 @@
+调用stop方法时会抛出java.lang.ThreadDeath异常，但在通常情况下此异常不需要显式的捕捉
