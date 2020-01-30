@@ -1,0 +1,4 @@
+多个线程调用同一个对象的不同名称的synchronized同步方法
+或synchronized(this)同步代码块时，调用的效果就是按顺序执行，也就是同步的，阻塞的
+
+这说明synchronized同步方法或synchronized(this)同步代码块分别有两种作用
