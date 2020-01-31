@@ -1,0 +1,2 @@
+关键字synchronized还可以应用在static静态方法上
+如果这样写，那是对当前的*.java文件对应的Class类进行持锁
