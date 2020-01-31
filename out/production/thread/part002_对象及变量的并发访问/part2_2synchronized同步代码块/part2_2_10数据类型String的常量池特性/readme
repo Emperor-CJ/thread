@@ -1,0 +1,6 @@
+在jvm中具有String常量池缓冲的功能
+String a = "a";
+String b = "a";
+a==b    //true
+
+将synchronized(string)同步块与String联合使用时，要注意常量池以带来的一些例外
