@@ -1,0 +1,1 @@
+当线程呈wait()状态时，调用线程对象的interrupt（）方法会出现InterruptedException异常
