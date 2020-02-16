@@ -1,0 +1,5 @@
+outputStream.connect(inputStream);
+或者
+inputStream.connect(outputStream);
+
+的作用使两个Stream之间产生通信连接，这样才可以将数据进行输出与输入。
