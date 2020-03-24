@@ -1,0 +1,1 @@
+方法join(long)的功能在内部是使用wait(long)方法来实现的，所以join（long）方法具有释放锁的特点
