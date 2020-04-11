@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02e83298-d602-44aa-baa5-ee9a1ab9a175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/cj/thread/A_02/B_01如何使用unsafe类/TestUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_1方法get与null/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_1方法get与null/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/ThreadLocalExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadLocalExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,101 +24,115 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_04_interrupted/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_04_interrupted/Test1.java">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="133">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/ThreadLocalExt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Tools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadLocalExt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_04_interrupted/interrupted_isInterrupted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_05_死锁问题/DeadLockTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_06_守护进程/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_07_ThreadLocal/ThreadLocalTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_08_lnheritableThreadLocal类/TestThreadLocal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_02/B_01如何使用unsafe类/TestUnsafe.java">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Run.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_04_interrupted/interrupted_isInterrupted_1.java">
+        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Tools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16872">
-              <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
-              <folding>
-                <element signature="e#36709#36710#0" expanded="true" />
-                <element signature="e#36767#36768#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -120,22 +146,77 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>已经</find>
+      <find>---</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/cj/thread/A_02/B_01如何使用unsafe类/Test.java" />
-        <option value="$PROJECT_DIR$/src/cn/cj/thread/A_02/B_01如何使用unsafe类/TestUnsafe.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_1synchronized同步方法/part2_1_8同步不具有继承性/MyThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_1synchronized同步方法/part2_1_8同步不具有继承性/MyThreadB.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_1synchronized同步方法/part2_1_8同步不具有继承性/Test.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_1synchronized同步方法/part2_1_8同步不具有继承性/Sub.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_1synchronized同步方法/part2_1_8同步不具有继承性/readme" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/readme" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_1synchronized方法的弊端/Commonutils.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_1synchronized方法的弊端/MyThread1.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_1synchronized方法的弊端/MyThread2.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_1synchronized方法的弊端/Run.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_1synchronized方法的弊端/Task.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_2synchronized同步代码块的使用/readme" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_2synchronized同步代码块的使用/ObjectService.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_2synchronized同步代码块的使用/ThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_2synchronized同步代码块的使用/ThreadB.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_2synchronized同步代码块的使用/Run.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_3用同步代码块解决同步方法的弊端/Task.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_3用同步代码块解决同步方法的弊端/Commonutils.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_3用同步代码块解决同步方法的弊端/MyThread1.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_3用同步代码块解决同步方法的弊端/MyThread2.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_3用同步代码块解决同步方法的弊端/Run.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_4一半异步一半同步/MyThread1.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_4一半异步一半同步/MyThread2.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_4一半异步一半同步/Run.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_4一半异步一半同步/Task.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/readme" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/ObjectService.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/ThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/ThreadB.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/Run.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_6验证同步synchronized代码块是锁定当前对象的/MyThread1.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_6验证同步synchronized代码块是锁定当前对象的/MyThread2.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_6验证同步synchronized代码块是锁定当前对象的/Run.java" />
+        <option value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_6验证同步synchronized代码块是锁定当前对象的/Task.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_2用join方法来解决/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_6方法join后面的代码提前运行_出现意外/joinMoreTetst/ThreadB.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_6方法join后面的代码提前运行_出现意外/joinMoreTetst/ThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_6方法join后面的代码提前运行_出现意外/joinMoreTetst/Run1.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/readme" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_1方法get与null/Run.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_1方法get与null/readme" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Tools.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadB.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Run.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/ThreadLocalExt.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/Run.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadLocalExt.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Tools.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Run.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="139" />
-    <option name="y" value="17" />
-    <option name="width" value="1771" />
-    <option name="height" value="1046" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="652" />
+    <option name="y" value="13" />
+    <option name="width" value="1492" />
+    <option name="height" value="1006" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -158,70 +239,29 @@
               <item name="thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="part003线程间通信" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="cj" type="462c0819:PsiDirectoryNode" />
+              <item name="part003线程间通信" type="462c0819:PsiDirectoryNode" />
+              <item name="part3_2方法join的使用" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="cj" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="part003线程间通信" type="462c0819:PsiDirectoryNode" />
+              <item name="part3_3类ThreadLocal的使用" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="cj" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="A_01_基础" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="cj" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="A_01_基础" type="462c0819:PsiDirectoryNode" />
-              <item name="B_04_interrupted" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="cj" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="A_01_基础" type="462c0819:PsiDirectoryNode" />
-              <item name="B_06_守护进程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="cj" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="A_02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="cj" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="A_02" type="462c0819:PsiDirectoryNode" />
-              <item name="B_01如何使用unsafe类" type="462c0819:PsiDirectoryNode" />
+              <item name="part003线程间通信" type="462c0819:PsiDirectoryNode" />
+              <item name="part3_3类ThreadLocal的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part3_3_4再次验证线程变量的隔离性" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,8 +275,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_3用同步代码块解决同步方法的弊端" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="part003线程间通信.part3_3类ThreadLocal的使用.part3_3_2验证线程变量的隔离性" />
+      <recent name="part002_对象及变量的并发访问.part2_2synchronized同步代码块.part2_2_6验证同步synchronized代码块是锁定当前对象的" />
+      <recent name="part002_对象及变量的并发访问.part2_2synchronized同步代码块.part2_2_5代码块间的同步性" />
+      <recent name="part002_对象及变量的并发访问.part2_2synchronized同步代码块.part2_2_4一半异步一半同步" />
+      <recent name="part002_对象及变量的并发访问.part2_2synchronized同步代码块.part2_2_3用同步代码块解决同步方法的弊端" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\stu\thread\thread\src\part002_对象及变量的并发访问\part2_2synchronized同步代码块\part2_2_3用同步代码块解决同步方法的弊端" />
+      <recent name="D:\stu\thread\thread\src\part002_对象及变量的并发访问\part2_1synchronized同步方法\part2_1_2实例变量非线程安全" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -250,13 +305,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="TestUnsafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cj.thread.A_02.B_01如何使用unsafe类.TestUnsafe" />
+  <component name="RunManager" selected="Application.Run (3)">
+    <configuration name="Run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part003线程间通信.part3_3类ThreadLocal的使用.part3_3_2验证线程变量的隔离性.Run" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cj.thread.A_02.B_01如何使用unsafe类.*" />
+          <option name="PATTERN" value="part003线程间通信.part3_3类ThreadLocal的使用.part3_3_2验证线程变量的隔离性.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part003线程间通信.part3_3类ThreadLocal的使用.part3_3_3解决get返回null问题.Run" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part003线程间通信.part3_3类ThreadLocal的使用.part3_3_3解决get返回null问题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part003线程间通信.part3_3类ThreadLocal的使用.part3_3_4再次验证线程变量的隔离性.Run" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part003线程间通信.part3_3类ThreadLocal的使用.part3_3_4再次验证线程变量的隔离性.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part003线程间通信.part3_3类ThreadLocal的使用.part3_3_1方法get与null.Run" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part003线程间通信.part3_3类ThreadLocal的使用.part3_3_1方法get与null.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part003线程间通信.part3_2方法join的使用.part3_2_6方法join后面的代码提前运行_出现意外.joinMoreTetst.Run1" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part003线程间通信.part3_2方法join的使用.part3_2_6方法join后面的代码提前运行_出现意外.joinMoreTetst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,7 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestUnsafe" />
+        <item itemvalue="Application.Run (3)" />
+        <item itemvalue="Application.Run (2)" />
+        <item itemvalue="Application.Run (1)" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.Run1" />
       </list>
     </recent_temporary>
   </component>
@@ -281,16 +392,28 @@
       <option name="presentableId" value="Default" />
       <updated>1578017713170</updated>
       <workItem from="1578017715180" duration="2898000" />
+      <workItem from="1578463625185" duration="12128000" />
+      <workItem from="1578906870608" duration="8682000" />
+      <workItem from="1579058606857" duration="66736000" />
+      <workItem from="1583723719591" duration="795000" />
+      <workItem from="1585014985700" duration="1177000" />
+      <workItem from="1585021268534" duration="814000" />
+      <workItem from="1585102908012" duration="3016000" />
+      <workItem from="1586310588283" duration="61000" />
+      <workItem from="1586332285436" duration="6544000" />
+      <workItem from="1586581444754" duration="49000" />
+      <workItem from="1586586670373" duration="1990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3088000" />
+    <option name="totallyTimeSpent" value="105080000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="139" y="17" width="1771" height="1046" extended-state="1" />
+    <frame x="722" y="15" width="1492" height="1006" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20864992" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23184358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -299,8 +422,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3006757" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33058822" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2523585" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -309,16 +432,17 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32588235" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.4129412" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.2848837" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32992327" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -326,85 +450,391 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/part001/part1_7_停止线程/part_1_7_3能停止的线程_异常法/MyTread.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_03_yield/YieldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_05_死锁问题/DeadLockTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_06_守护进程/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_3用同步代码块解决同步方法的弊端/Commonutils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_07_ThreadLocal/ThreadLocalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_3用同步代码块解决同步方法的弊端/MyThread1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="380">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_3用同步代码块解决同步方法的弊端/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16872">
-          <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
+        <state relative-caret-position="463">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_4一半异步一半同步/MyThread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_4一半异步一半同步/MyThread2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_4一半异步一半同步/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_4一半异步一半同步/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/ObjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_6验证同步synchronized代码块是锁定当前对象的/MyThread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_6验证同步synchronized代码块是锁定当前对象的/MyThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_6验证同步synchronized代码块是锁定当前对象的/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_6验证同步synchronized代码块是锁定当前对象的/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#36709#36710#0" expanded="true" />
-            <element signature="e#36767#36768#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_08_lnheritableThreadLocal类/TestThreadLocal.java">
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/ThreadB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="342">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part002_对象及变量的并发访问/part2_2synchronized同步代码块/part2_2_5代码块间的同步性/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_1/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_1/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_1/ThreadC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_1/ThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_1/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_2/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_2/ThreadC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_2/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_1学习方法join前的铺垫/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_2用join方法来解决/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java" />
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_2用join方法来解决/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_6方法join后面的代码提前运行_出现意外/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_6方法join后面的代码提前运行_出现意外/joinMoreTetst/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_6方法join后面的代码提前运行_出现意外/joinMoreTetst/Run1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_6方法join后面的代码提前运行_出现意外/joinMoreTetst/ThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_2用join方法来解决/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_2/ThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_2方法join的使用/part3_2_5方法join_long与sleep_long的区别/join_sleep_2/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_02/B_01如何使用unsafe类/TestUnsafe.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_1方法get与null/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_04_interrupted/interrupted_isInterrupted_1.java">
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_1方法get与null/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_04_interrupted/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_04_interrupted/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="133">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/cj/thread/A_01_基础/B_04_interrupted/interrupted_isInterrupted.java">
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/ThreadLocalExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadLocalExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
