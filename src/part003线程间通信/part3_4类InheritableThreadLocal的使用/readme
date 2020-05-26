@@ -1,1 +1,4 @@
 使用类InheritableThreadLocal可以在子线程中取得父线程继承下来的值
+
+但在使用InheritableThreadLocal类需要注意的是，如果子线程在取得值的同时，
+主线程将InheritableThreadLocal中的值进行更改，那么子线程渠道的值还是旧值
