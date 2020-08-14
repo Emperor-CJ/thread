@@ -1,0 +1,1 @@
+方法hasQueuedThread(Thread thread)的作用是查询指定的线程是否正在等待获取此锁定

@@ -5,8 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f46fce-f51e-4d15-83a4-c287df378203" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getHoldCount/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getHoldCount/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getHoldCount/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getQueueLength/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getQueueLength/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getQueueLength/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/ThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/ThreadB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/MyThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/MyThreadB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/MyThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/MyThreadB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/Fair_noFair_test/RunFair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/Fair_noFair_test/RunNotFair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/Fair_noFair_test/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,77 +51,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/ThreadLocalExt.java">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_3解决get返回null问题/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Tools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadLocalExt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/ThreadA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_4类InheritableThreadLocal的使用/readme">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="43" selection-start-column="43" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="589">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,23 +63,96 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/Field1.java">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="247">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/readme">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="54" selection-start-column="54" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Tools.java">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="437">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/readme">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/MyThreadA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -133,24 +172,73 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/part003线程间通信/part3_4类InheritableThreadLocal的使用/readme" />
-        <option value="$PROJECT_DIR$/src/part003线程间通信/Field.java" />
-        <option value="$PROJECT_DIR$/src/cn/Field1.java" />
-        <option value="$PROJECT_DIR$/src/part003线程间通信/Test.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_2使用ReentrantLock实现同步_测试2/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/UseConditionWaitNotifyError/MyService.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/UseConditionWaitNotifyError/ThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/UseConditionWaitNotifyError/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/UseConditionWaitNotifyError/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/MyService.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/MyThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_4正确使用Condition实现等待通知/UseConditionWaitNotifyOK/MyService.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_4正确使用Condition实现等待通知/UseConditionWaitNotifyOK/ThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_4正确使用Condition实现等待通知/UseConditionWaitNotifyOK/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_4正确使用Condition实现等待通知/UseConditionWaitNotifyOK/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/MyService.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/ThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/ThreadB.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/MyService.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/ThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/ThreadB.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/MyService.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/MyThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/MyThreadB.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多堆多交替打印/MyService.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/MyService.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/MyThreadA.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/MyThreadB.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/Fair_noFair_test/Service.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/Fair_noFair_test/RunFair.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/Fair_noFair_test/RunNotFair.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/Service.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getQueueLength/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getQueueLength/Service.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getQueueLength/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/Service.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/Service.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/readme" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Run.java" />
+        <option value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Service.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="217" />
-    <option name="y" value="21" />
-    <option name="width" value="1492" />
-    <option name="height" value="1006" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="421" />
+    <option name="y" value="9" />
+    <option name="width" value="1517" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,24 +255,124 @@
               <item name="thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="part001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="part003线程间通信" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1_2使用ReentrantLock实现同步_测试2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1_3使用Condition实现等待通知_错误用法与解决" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1_3使用Condition实现等待通知_错误用法与解决" type="462c0819:PsiDirectoryNode" />
+              <item name="UseConditionWaitNotifyError" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1_3使用Condition实现等待通知_错误用法与解决" type="462c0819:PsiDirectoryNode" />
+              <item name="z3_ok" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1_4正确使用Condition实现等待通知" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1_4正确使用Condition实现等待通知" type="462c0819:PsiDirectoryNode" />
+              <item name="UseConditionWaitNotifyOK" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part004Lock的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1使用ReentrantLock类" type="462c0819:PsiDirectoryNode" />
+              <item name="part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试" type="462c0819:PsiDirectoryNode" />
+              <item name="hasWaiters" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\stu\thread\thread\src\part004Lock的使用\part4_1使用ReentrantLock类\part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试\getHoldCount" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试.getQueueLength" />
+      <recent name="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_9公平锁与非公平锁.Fair_noFair_test" />
+      <recent name="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_7实现生产者消费者模式_一对一交替打印" />
+      <recent name="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_6使用多个Condittion实现通知部分线程_正确用法" />
+      <recent name="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_5使用多个condition实现通知部分线程_错误用法.MustUseMoreCondition_Error" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\stu\thread\thread\src\part004Lock的使用\part4_1使用ReentrantLock类\part4_1_8实现生产者_消费者模式_多对多交替打印" />
+      <recent name="D:\stu\thread\thread\src\part003线程间通信\part3_4类InheritableThreadLocal的使用\part3_4_2值继承再修改" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,13 +386,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part003线程间通信.Test" />
+  <component name="RunManager" selected="Application.Run (4)">
+    <configuration name="Run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试.getWaitQueueLength.Run" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part003线程间通信.*" />
+          <option name="PATTERN" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试.getWaitQueueLength.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试.hasQueuedThread.Run" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试.hasQueuedThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试.Run" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试.hasWaiters.Run" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试.hasWaiters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试.getQueueLength.Run" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part004Lock的使用.part4_1使用ReentrantLock类.part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试.getQueueLength.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,7 +454,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Run (4)" />
+        <item itemvalue="Application.Run (2)" />
+        <item itemvalue="Application.Run (1)" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.Run (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,15 +466,52 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0f46fce-f51e-4d15-83a4-c287df378203" name="Default Changelist" comment="" />
+      <created>1587799586785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587799586785</updated>
+      <workItem from="1587799589538" duration="41000" />
+      <workItem from="1590481246326" duration="6528000" />
+      <workItem from="1590975428840" duration="593000" />
+      <workItem from="1591233048415" duration="594000" />
+      <workItem from="1591927388152" duration="598000" />
+      <workItem from="1592185268222" duration="594000" />
+      <workItem from="1592274149539" duration="584000" />
+      <workItem from="1592382321163" duration="565000" />
+      <workItem from="1592444622510" duration="593000" />
+      <workItem from="1592459076784" duration="17386000" />
+      <workItem from="1593998519972" duration="542000" />
+      <workItem from="1594281798656" duration="5765000" />
+      <workItem from="1594603312297" duration="5636000" />
+      <workItem from="1595207723863" duration="587000" />
+      <workItem from="1597385106097" duration="3388000" />
+    </task>
+    <task id="LOCAL-00001" summary="InheritableThreadLocal 的使用">
+      <created>1590483075263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590483075263</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lock 的使用">
+      <created>1593597916202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593597916202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3152000" />
+    <option name="totallyTimeSpent" value="47146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="217" y="21" width="1492" height="1006" extended-state="1" />
+    <frame x="421" y="9" width="1517" height="1025" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23184358" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26218256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -239,8 +520,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31603774" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2523585" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29181084" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39100346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -249,10 +530,11 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3254717" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.17517401" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.4129412" />
-      <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.2848837" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.21345708" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.28471413" />
+      <window_info anchor="bottom" id="Statistic" order="16" weight="0.16802801" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -264,7 +546,34 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -280,57 +589,438 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="InheritableThreadLocal 的使用" />
+    <MESSAGE value="Lock 的使用" />
+    <MESSAGE value="Lock 的使用1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lock 的使用1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Service.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Service.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_4再次验证线程变量的隔离性/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_4类InheritableThreadLocal的使用/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/ThreadB.java">
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/readme">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/part3_3类ThreadLocal的使用/part3_3_2验证线程变量的隔离性/Run.java">
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/UseConditionWaitNotifyError/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/Field1.java">
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/UseConditionWaitNotifyError/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state>
+          <caret column="68" selection-start-column="68" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_4正确使用Condition实现等待通知/UseConditionWaitNotifyOK/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/part003线程间通信/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_4正确使用Condition实现等待通知/UseConditionWaitNotifyOK/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_4正确使用Condition实现等待通知/UseConditionWaitNotifyOK/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/ThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_5使用多个condition实现通知部分线程_错误用法/MustUseMoreCondition_Error/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/ThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_6使用多个Condittion实现通知部分线程_正确用法/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/MyThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/MyThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_7实现生产者消费者模式_一对一交替打印/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/MyThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/MyThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_8实现生产者_消费者模式_多对多交替打印/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/Fair_noFair_test/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/Fair_noFair_test/RunNotFair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getHoldCount/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getQueueLength/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_1使用ReentrantLock实现同步_测试1/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_2使用ReentrantLock实现同步_测试2/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_4正确使用Condition实现等待通知/UseConditionWaitNotifyOK/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/UseConditionWaitNotifyError/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/UseConditionWaitNotifyError/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getQueueLength/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getQueueLength/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getHoldCount/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_9公平锁与非公平锁/Fair_noFair_test/RunFair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="9" selection-start-line="13" selection-start-column="6" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getHoldCount/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_3使用Condition实现等待通知_错误用法与解决/z3_ok/MyThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_10方法getHoldCount_getQueueLength_getWaitQueueLength的测试/getWaitQueueLength/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasQueuedThread/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part004Lock的使用/part4_1使用ReentrantLock类/part4_1_11方法hasQueuedThread_hasQueuedThreads_hasWaiters的测试/hasWaiters/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
